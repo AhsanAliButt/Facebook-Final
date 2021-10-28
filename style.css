@@ -85,3 +85,66 @@
     margin: 0 10px;
     cursor: pointer;
 }
+.story{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px black;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.story:hover{
+    transform: scale(1.07);
+}
+.story-pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: blue solid 3px;
+    margin:10px;
+}
+.story h4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color:white;
+}
+.storyReel{
+    display: flex;
+    padding: 10px 0;
+}
+/* .feed{
+    display: flex; */
+}
+/* .left-row{
+    display: flex;
+} */
+.main-body{
+    display: flex;
+}
+.leftbox{
+    margin:10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.leftbox:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.leftbox h4{
+    margin-left: 20px;
+    font-weight: 600;
+
+}
+.leftbox .material-icons{
+    font-size: xx-large;
+    color:blue;
+
+    
+}
