@@ -283,3 +283,28 @@ flex:1;
 .post-react .material-icons:hover {
     color: blue;
 }
+.friends-row{
+    overflow: scroll;
+    overflow-x:hidden;
+    flex:1;
+}
+.friends-online{
+    margin:10px;
+    cursor: pointer;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    padding:10px;
+}
+.friends-online:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.friends-online h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.friends-online .material-icons{
+    font-size: xx-large;
+    color:blue;
+}
